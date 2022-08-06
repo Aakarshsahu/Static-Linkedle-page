@@ -1,0 +1,501 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+    
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(225, 216, 216); */
+  }
+
+  .NavLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    /* background-color: red; */
+    
+  }
+
+  .NavLeft > img{
+    height: 35px;
+    width: 35px;
+    margin-left: 20%;
+  }
+
+  .NavInput{
+    display: flex;
+    background-color: #EEF3F8;
+    
+    /* height: 3%; */
+    /* width: 15%; */
+    padding: 0.8%;
+    font-size: 20px;
+    gap: 10px;
+    
+  }
+
+   .NavInput > i{
+    padding-left:20px ;
+   }
+
+  .NavInput > input{
+    font-size: 20px;
+    background-color: #EEF3F8;
+    border: none;
+  }
+
+  .NavRight{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .NavIcon{
+    text-align: center;
+    
+  }
+
+  .NavIcon:hover{
+    /* color: white; */
+    background-color: rgb(228, 222, 222);
+    cursor: pointer;
+  }
+  .NavIcon > i{
+    font-size: 20px;
+  }
+
+  .NavIcon > p{
+    opacity: 0.5;
+  }
+
+  .vertical{
+    width: 2px;
+    height: 45px;
+    border-left: 2px solid black;
+    
+  }
+
+  .Navcircle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-image: url(girl1.avif);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .NavRight > p{
+        font-size: 15px;
+        text-align: center;
+        margin-top: -6px;
+  }
+
+  .face2{
+    width: 100%;
+    height: 200%;
+    display: flex;
+    gap: 2%;
+    padding-top: 2%;
+    background-color: #e9e5df;
+  }
+
+  .Face2Left{
+        height: 50%;
+        width: 23%;
+        background-color: white;
+        margin-left: 10%;
+        border: 2px solid rgb(219, 213, 213);
+        border-radius: 10px;
+
+  }
+
+  .Face2Mid{
+    height: 200%;
+    width: 50%;
+    /* background-color: beige; */
+
+  }
+
+  .Face2Right{
+    height: 65%;
+    width: 27%;
+    /* background-color: aquamarine; */
+    margin-right: 7%;
+    
+
+  }
+
+  .MidTop{
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    border: 2px solid rgb(226, 224, 224);
+    border-radius: 10px;
+  }
+
+  .Midtop1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+  }
+
+  .midtopcircle{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-image: url(girl2.avif);
+    background-size: cover;
+    background-position: center;
+  }
+
+.Midtop1 > input{
+    padding: 2% 30%;
+    border: 2px solid rgb(207, 201, 201);
+    border-radius: 20px;
+    font-family: "Gilroy";
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+
+.Midtop2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.midicon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    font-family: "Gilroy";
+    font-weight: 300;
+    
+    
+}
+
+.midicon:hover{
+  background-color: #e9e5df;
+  cursor: pointer;
+  
+}
+
+.midicon > i{
+    font-size: 30px;
+}
+
+
+.midpart2{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    margin-top: 5%;
+}
+
+.midpart2Div1{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    /* align-items: center; */
+}
+
+.midleft{
+    display: flex;
+    align-items: center;
+}
+
+.midleft > img{
+    height: 80px;
+    width: 80px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.midpart2Div1 >i{
+font-size: 40px;
+margin-right: 3%;
+}
+
+#lorem{
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.midpart2Div2{
+    width: 100%;
+    height:60% ;
+    /* background-color: aqua; */
+    background-image: url(ipl.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.midpart2Div2 > iframe{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.midpart2Div2 > img{
+  height: 70px;
+  width: 70px;
+  margin-left: 68%;
+  margin-top: 2%;
+  
+}
+
+#midpart2Div2{
+  background-image: url(girl2.avif);
+}
+#midpart2Div2_0{
+background-image: url(girl3.avif);
+}
+
+.midpart2Div3{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.like{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#like1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(142, 142, 244);
+}
+
+#like2{
+    background-image: url(girl3.avif);
+    background-position: center;
+    background-size: cover;
+
+}
+#like3{
+    background-image: url(girl4.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.midpart2Div4{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.option > i{
+    font-size: 25px;
+}
+
+.midpics{
+  width: 100%;
+  height: 15%;
+  margin-top: 13.5%;
+  background-color: red;
+  background-image: url(girl5.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+.midcovering{
+  margin-top: 10%;
+  width: 100%;
+  height: 20%;
+  
+}
+
+.f2rDiv1{
+  width: 100%;
+  height: 35%;
+  background-color: white;
+  border: 2px solid rgb(244, 239, 239);
+  border-radius: 10px;
+}
+.f2rDiv2{
+  width: 100%;
+  height: 25%;
+  background-color: white;
+  margin-top: 5%;
+  border: 2px solid rgb(244, 239, 239);
+  border-radius: 10px;
+}
+.f2rDiv3{
+  width: 100%;
+  height: 40%;
+  margin-top: 5%;
+  background-color: white;
+  border: 2px solid rgb(244, 239, 239);
+  border-radius: 10px;
+}
+
+.f2rightdiv1top{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-left: 10px;
+ 
+}
+
+.iconbox{
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.f2rightdiv1buttom{
+  margin-left: 30px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.followdiv{
+  display: flex;
+  gap: 10px;
+  margin-top: 8%;
+  margin-left: 10px;
+  
+}
+
+.followdiv > img{
+height: 30px;
+width: 30px;
+margin-top: 10px;
+}
+
+.follow > button{
+  padding: 5% 50%;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-top: 3px;
+  border-top: 4px solid black;
+}
+
+#myntra{
+  height: 40px;
+  width: 40px;
+  
+}
+
+.lefttop{
+  width: 100%;
+  height: 25%;
+  background-color: white;
+  border: 2px solid rgb(237, 221, 221);
+  border-radius: 10px;
+}
+
+.upper{
+  width: 100%;
+  height: 40%;
+  border-radius: 10px;
+  background: linear-gradient(rgb(254, 138, 243),rgb(248, 106, 106),rgb(128, 110, 200));
+}
+
+.leftcontent{
+  text-align: center;
+  margin-top: -16%;
+}
+
+.leftcontentimg{
+
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-image: url(boy1.avif);
+  background-size: cover;
+  background-position: cover;
+  margin-left: 33%;
+}
+
+.leftdiv1{
+  width: 100%;
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  
+
+}
+
+#h3{
+  font-weight: 100;
+}
+
+#leftdiv1{
+  border-bottom: 2px solid rgb(215, 207, 207);
+  border-radius: 10px;
+}
+
+.leftdiv2{
+  padding-top: 5px;
+  padding-left: 10px;
+  border-bottom: 2px solid rgb(215, 207, 207);
+  border-radius: 10px;
+
+}
+
+#leftpera{
+  font-weight: 500;
+  font-size: 20px;
+  /* padding-top: 10px; */
+}
+
+.leftdiv3{
+  margin-top: 20px;
+  margin-left: 10px;
+ 
+}
+
+#leftpera2{
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#leftpera3{
+  font-size: 20px;
+  font-weight: 200;
+  color: blue;
+}
